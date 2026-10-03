@@ -4,6 +4,8 @@ window.JZ = window.JZ || {};
 (function (JZ) {
   'use strict';
 
+  JZ.App = {};
+
   // ===== 状态 =====
 
   var state = JZ.state = {

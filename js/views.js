@@ -5,6 +5,8 @@ window.JZ = window.JZ || {};
 (function (JZ) {
   'use strict';
 
+  JZ.Views = {};
+
   // ===== 工具 =====
 
   /** HTML 转义（含引号，属性值插值同样安全） */

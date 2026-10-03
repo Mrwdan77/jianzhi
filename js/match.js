@@ -5,6 +5,8 @@ window.JZ = window.JZ || {};
 (function (JZ) {
   'use strict';
 
+  JZ.Match = {};
+
   /** 岗位要求项中被学生覆盖的比例；岗位无要求视为 1 */
   function coverage(required, owned) {
     if (!required || !required.length) return 1;
